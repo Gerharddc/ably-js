@@ -715,7 +715,7 @@ define(['ably', 'shared_helper', 'async'], function(Ably, helper, async) {
 						realtime.close();
 					});
 				});
-			}, 100)
+			}, 200)
 		});
 	}});
 
